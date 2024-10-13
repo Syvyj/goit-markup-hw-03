@@ -93,31 +93,6 @@ img {
   color: #404bbf;
 }
 
-/*----------MENU---------*/
-.nav-links {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-transform: none;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-item {
-}
-
-.nav-item-links {
-  color: #2e2f42;
-}
-
-.nav-item-links:hover,
-.nav-item-links:focus {
-  color: #404bbf;
-}
-
 /*----------ADDRESS---------*/
 .contact {
   font-style: normal;

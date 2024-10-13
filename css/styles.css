@@ -33,7 +33,7 @@ img {
   line-height: 117%;
   letter-spacing: 0.03em;
   color: #2e2f42;
-  padding: 24px 0 24px;
+  /* padding: 24px 0 24px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -270,19 +270,19 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
-  padding: 32px 0 32px;
+  /* padding: 32px 0 32px; */
 }
 
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0 0 32px 0;
+  /* padding: 0 0 32px 0; */
   width: 264px;
   height: 380px;
 }
 
 .team-card-title {
-  padding: 32px 16px;
+  padding: 16px 0 16px;
 }
 
 .our-team-subtitle {
@@ -373,9 +373,9 @@ img {
 }
 
 .footer-wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
 }
 
 .footer-link {

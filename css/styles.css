@@ -198,12 +198,14 @@ img {
 .our-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
-  padding: 120px 0;
+  padding: 120px 0; /* Виправлено тут */
 }
+
 .our-team-container {
   display: flex;
   flex-direction: column;
 }
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -212,23 +214,28 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0;
 }
+
 .our-team-list {
   display: flex;
   gap: 24px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 32px; /* Залишено без змін */
+  padding-bottom: 32px; /* Залишено без змін */
 }
+
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
+  padding-bottom: 32px; /* Залишено без змін */
   width: 264px;
   height: 380px;
 }
+
 .team-card-title {
-  padding: 16px 0 16px;
+  padding: 16px 0 16px; /* Залишено без змін */
 }
+
 .our-team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -238,6 +245,7 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .our-team-text {
   font-size: 16px;
   line-height: 150%;

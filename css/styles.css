@@ -40,6 +40,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
 /*----------LOGO---------*/
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -52,11 +53,12 @@ img {
   display: flex;
   align-items: center;
   margin-right: 76px;
-  padding: 24px 0 24px;
+  padding: 24px 0; /* Виправлено тут */
 }
 .logo-span {
   color: #2e2f42;
 }
+
 /*----------MENU---------*/
 .nav-links {
   font-weight: 500;
@@ -70,7 +72,7 @@ img {
   gap: 40px;
 }
 .nav-item {
-  padding: 24px 0 24px;
+  padding: 24px 0; /* Виправлено тут */
 }
 .nav-item-links {
   color: #2e2f42;
@@ -79,6 +81,7 @@ img {
 .nav-item-links:focus {
   color: #404bbf;
 }
+
 /*----------ADDRESS---------*/
 .contact {
   font-style: normal;
@@ -94,7 +97,7 @@ img {
   gap: 40px;
 }
 .contact-item {
-  padding: 24px 0 24px;
+  padding: 24px 0; /* Виправлено тут */
 }
 .contact-item-links {
   font-size: 16px;

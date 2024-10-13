@@ -50,8 +50,7 @@ img {
 }
 
 /*----------LOGO---------*/
-.header-logo,
-.footer-logo {
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -79,8 +78,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
 }
 
 .nav-item {
@@ -278,7 +276,7 @@ img {
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
+  padding: 0 0 32px 0;
   width: 264px;
   height: 380px;
 }

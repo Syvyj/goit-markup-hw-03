@@ -33,7 +33,7 @@ img {
   line-height: 117%;
   letter-spacing: 0.03em;
   color: #2e2f42;
-  padding: 24px 0;
+  padding: 24px 0 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -199,7 +199,7 @@ img {
 }
 /*----------ABOUT-US---------*/
 .about-us {
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .about-us-container {
@@ -272,8 +272,7 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
-  padding: 32px 0;
-  padding-left: 0;
+  padding: 32px 0 32px;
 }
 
 .our-team-item {

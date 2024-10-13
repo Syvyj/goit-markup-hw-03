@@ -52,6 +52,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: 76px;
+  padding: 24px 0 24px;
 }
 .logo-span {
   color: #2e2f42;

@@ -91,6 +91,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .contact-item {
 }

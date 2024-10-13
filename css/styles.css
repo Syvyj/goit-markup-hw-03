@@ -198,7 +198,7 @@ img {
 .our-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
-  padding: 120px 0; /* Виправлено тут */
+  padding: 120px 0 120px; /* Виправлено тут */
 }
 
 .our-team-container {
@@ -220,20 +220,17 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
-  padding-top: 32px; /* Залишено без змін */
-  padding-bottom: 32px; /* Залишено без змін */
 }
 
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px; /* Залишено без змін */
+  /* padding-bottom: 32px; Залишено без змін */
   width: 264px;
   height: 380px;
 }
 
 .team-card-title {
-  padding: 16px 0 16px; /* Залишено без змін */
 }
 
 .our-team-subtitle {
@@ -244,6 +241,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .our-team-text {
